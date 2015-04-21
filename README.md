@@ -1,6 +1,6 @@
 # Git Resources for Creare
 
-.gitignore and MAMP VirtualHost configurations for Magento/WordPress/
+.gitignore and MAMP VirtualHost configurations for Magento/WordPress.
 
 
 ## .gitignore
