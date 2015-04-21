@@ -1,0 +1,14 @@
+# Basically this points Magento uploads from local to the staging/live.
+# REPLACE PROD WITH THE STAGING DOMAIN.
+
+<IfModule mod_rewrite.c>
+        RewriteEngine on
+
+        # Attempt to load files from production if
+        # they're not in our local version
+        RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-d
+        RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-f
+        RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-l
+        RewriteRule media/(.*) \
+                http://{PROD}/media/$1 [NC,L]
+</IfModule>

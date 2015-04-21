@@ -1,0 +1,67 @@
+# A .gitignore file for WordPress.
+# RENAME TO .gitignore AND PLACE IN THE ROOT PROJECT DIRECTORY
+
+# Keep these files out of the repo
+/wp-content/themes/twenty*
+/wp-content/upgrade
+/wp-content/uploads
+/sitemap.*
+/wp-config.php
+*.sql
+
+# Hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*
+
+Ultimate .gitignore from https://gist.github.com/Swader/7844111
+
+# Composer
+vendor
+composer.phar
+
+# IntelliJ - PhpStorm and PyCharm
+.idea
+*.ipr
+*.iws
+
+# Logs
+logs
+error.log
+access.log
+
+# Netbeans
+nbproject
+.nbproject
+.nbproject/*
+nbproject/*
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Mac OSX
+.DS_Store
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# SublimeText project files
+/*.sublime-project
+*.sublime-workspace
+
+# Dart
+packages
+packages/*
+
+# Vagrant
+.vagrant
+.vagrant/*
+
+.env
