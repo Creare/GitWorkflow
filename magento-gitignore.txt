@@ -6,6 +6,7 @@
 ### Magento ###
 media/
 var/
+.htaccess
 
 
 Ultimate .gitignore from https://gist.github.com/Swader/7844111
