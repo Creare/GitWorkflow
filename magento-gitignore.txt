@@ -2,8 +2,8 @@
 # RENAME TO .gitignore AND PLACE IN THE ROOT PROJECT DIRECTORY
 
 ### Magento ###
-media/
-var/
+/media/
+/var/
 
 
 ### Ultimate .gitignore from https://gist.github.com/Swader/7844111 ###
