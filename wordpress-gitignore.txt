@@ -15,7 +15,7 @@
 *.sass-cache*
 *~imageoptim*
 
-Ultimate .gitignore from https://gist.github.com/Swader/7844111
+#Ultimate .gitignore from https://gist.github.com/Swader/7844111
 
 # Composer
 vendor
