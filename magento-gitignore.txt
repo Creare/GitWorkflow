@@ -60,3 +60,7 @@ packages/*
 .vagrant/*
 
 .env
+
+### WordPress ignore
+news/wp-config.php
+*wp-config.php*
