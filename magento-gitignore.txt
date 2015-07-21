@@ -1,6 +1,10 @@
 # A .gitignore file for Magento.
 # RENAME TO .gitignore AND PLACE IN THE ROOT PROJECT DIRECTORY
 
+### Security ###
+
+sftp-config.json
+
 ### Magento ###
 /media/
 /var/
