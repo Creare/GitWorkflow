@@ -1,6 +1,10 @@
 # A .gitignore file for WordPress.
 # RENAME TO .gitignore AND PLACE IN THE ROOT PROJECT DIRECTORY
 
+# Security
+
+sftp-config.json
+
 # Keep these files out of the repo
 /wp-content/themes/twenty*
 /wp-content/upgrade
