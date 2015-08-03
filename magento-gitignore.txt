@@ -64,3 +64,9 @@ packages/*
 ### WordPress ignore
 news/wp-config.php
 *wp-config.php*
+
+### Other files
+
+.htaccess
+robots.txt
+sitemap.xml
