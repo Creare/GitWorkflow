@@ -12,6 +12,8 @@ sftp-config.json
 /sitemap.*
 /wp-config.php
 *.sql
+/robots.txt
+/sitemap.xml
 
 # Hidden files
 *.DS_Store
