@@ -67,6 +67,6 @@ news/wp-config.php
 
 ### Other files
 
-.htaccess
-robots.txt
-sitemap.xml
+/.htaccess
+/robots.txt
+/sitemap.xml
