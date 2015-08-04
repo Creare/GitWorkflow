@@ -6,6 +6,7 @@
 sftp-config.json
 
 ### Magento ###
+/app/etc/local.xml
 /media/
 /var/
 
@@ -67,7 +68,6 @@ news/wp-config.php
 
 ### Other files
 
-/app/etc/local.xml
 /.htaccess
 /robots.txt
 /sitemap.xml
