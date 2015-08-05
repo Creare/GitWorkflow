@@ -10,5 +10,5 @@
         RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-f
         RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-l
         RewriteRule media/(.*) \
-                http://{PROD}/media/$1 [NC,L]
+                http://proxy.ccio.co.uk/?page={PROD}/media/$1 [NC,L]
 </IfModule>
