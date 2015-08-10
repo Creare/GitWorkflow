@@ -21,6 +21,11 @@ sftp-config.json
 *.sass-cache*
 *~imageoptim*
 
+### Gulp ###
+**/node_modules/gulp*
+**/node_modules/.bin/gulp/
+gulpfile.js
+
 #Ultimate .gitignore from https://gist.github.com/Swader/7844111
 
 # Composer
