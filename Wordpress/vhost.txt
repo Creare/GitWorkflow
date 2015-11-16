@@ -1,14 +1,11 @@
-# Basically this points WordPress uploads from local to the staging/live.
-# REPLACE PROD WITH THE STAGING DOMAIN.
+# Points Wordpress uploads from local to the staging/live.
+# REPLACE {{PROD}} WITH THE PRODUCTION DOMAIN.
 
 <IfModule mod_rewrite.c>
         RewriteEngine on
-
-        # Attempt to load files from production if
-        # they're not in our local version
         RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-d
         RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-f
         RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-l
         RewriteRule wp-content/uploads/(.*) \
-                http://{PROD}/wp-content/uploads/$1 [NC,L]
+                http://{{PROD}}/wp-content/uploads/$1 [NC,L]
 </IfModule>

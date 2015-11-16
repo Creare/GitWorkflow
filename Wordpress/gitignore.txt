@@ -1,0 +1,72 @@
+### Wordpress ###
+wp-content/themes/twenty*
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/index.php
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+wp-admin/
+wp-includes/
+wp-content/themes/twenty*
+wp-content/themes/index.php
+sitemap.*
+index.php
+wp-activate.php
+wp-blogheader.php
+wp-comments-post.php
+wp-config-sample.php
+wp-config.php
+wp-cron.php
+wp-links-opmi.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+*.sql
+robots.txt
+sitemap.xml
+
+### Hidden files ###
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*
+
+### Composer ###
+composer.phar
+
+### Security ###
+sftp-config.json
+
+### Mac OSX ###
+.DS_Store
+
+### Thumbnails ###
+._*
+
+### Files that might appear on external disk ###
+.Spotlight-V100
+.Trashes
+
+### Logs ###
+*.log
+
+### SublimeText project files ###
+/*.sublime-project
+*.sublime-workspace
+
+### Dart ###
+packages
+packages/*
+
+### Vagrant ###
+.vagrant
+.vagrant/*
+.env
+
+### Dependency directory ###
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
