@@ -1,7 +1,6 @@
-# Git Resources for Creare
+# Resources for Creare Git Workflow
 
-.gitignore and MAMP VirtualHost configurations for Magento/WordPress.
-
+.gitignore and MAMP VirtualHost configurations for Magento and WordPress.
 
 ## .gitignore
 
