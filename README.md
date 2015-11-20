@@ -1,6 +1,10 @@
-# Resources for Creare Git Workflow
+# Creare Git Workflow
 
-.gitignore and MAMP VirtualHost configurations for Magento and WordPress.
+Creare's Git workflow is designed to enable version control for all web projects and to work within our web development framework.
+
+## Daily Workflow
+
+![](images/daily-workflow.jpg)
 
 ## .gitignore
 
