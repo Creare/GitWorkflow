@@ -150,6 +150,7 @@ LICENSE_AFL.txt
 LICENSE.html
 LICENSE.txt
 /mage
+/media/
 /api.php
 nbproject/
 pear
