@@ -11,6 +11,7 @@ wp-content/themes/twenty*
 wp-content/themes/index.php
 sitemap.*
 index.php
+!wp-content/themes/*/index.php
 wp-activate.php
 wp-blogheader.php
 wp-comments-post.php
